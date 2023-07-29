@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Air Quality Index</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="background">
+      <h1>Apli air api</h1>
+
+      <div id="divPrincipal">
+        <div class="loader active">
+          <img id="logoLoader" src="ressources/biodegradable.svg" alt="logo de chargement">
+        </div>
+
+        <img src="ressources/magnifying-glass.svg" class="emoji">
+        <p id="pCity">Votre ville</p>
+
+        <table>
+          <tr>
+            <th id="thCity">City</th>
+            <td id="tdCity">...</td>
+          </tr>
+          <tr>
+            <th id="thInfo">Polutution info</th>
+            <td id="tdInfo">...</td>
+          </tr>
+          <tr>
+            <th id="thIndex">Air Quality Index</th>
+            <td id="tdIndex">...</td>
+          </tr>
+        </table>
+        <p id="pBarPol">Polutution scale</p>
+        <div id="barPol">
+          <div class="divBarPol"></div>
+          <div class="divBarPol"></div>
+          <div class="divBarPol"></div>
+          <div class="divBarPol"></div>
+          <div class="divBarPol"></div>
+          <div class="divBarPol"></div>
+        </div>
+        <DIV id="pointeur" src="ressources/location.svg"></DIV>
+      </div>
+
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -34,10 +34,12 @@ body{
 h1{
   color: #fff;
   text-align: center;
-  padding-top: 9vh;
+  margin-top: 5%;
   text-shadow: 4px 4px 5px #000;
   font-size: 42px;
   text-transform: uppercase;
+  z-index: 10;
+  position: relative;
 }
 #logoLoader{
   display: none;
@@ -49,8 +51,8 @@ h1{
 }
 #divPrincipal{
   background-color: #bbbbF0;
-  width: 50vw;
-  height: 53vh;
+  width: 500px;
+  height: 400px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -61,6 +63,7 @@ h1{
   justify-content: center;
   align-items: center;
   box-shadow: 4px 4px 5px #464646;
+  z-index: 5;
 }
 #pCity{
   margin-top: 3vh;
@@ -87,10 +90,10 @@ th{
 }
 #pointeur{
   height: 25px;
-  left: 8%;
+  left: 37px;
   position: absolute;
   rotate: 180deg;
-  margin-top: 24px;
+  margin-top: 30px;
 }
 #barPol{
   display: flex;

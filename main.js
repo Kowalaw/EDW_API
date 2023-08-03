@@ -45,7 +45,12 @@ const pollutionScale = [
     try{
         const repApi = await fetch('http://api.airvisual.com/v2/nearest_city?key=0b015984-13a0-4914-829c-6fedf21a8afd')
         const repData = await repApi.json()
+        let aqius = repData.data.current.pollution.aqius
         console.log(repData)
+        let dataApi ={
+          city : repData.data.city,
+          aqius
+        }
     }
     catch(error){
 

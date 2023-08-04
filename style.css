@@ -73,6 +73,7 @@ tr, th, td{
   border: 1px solid black;
   padding: 2px;
   text-align: left;
+  font-weight:bold;
 }
 table{
   margin-top: 2vh;

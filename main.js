@@ -73,4 +73,11 @@ function funcDataApi(data){
   tdInfo.textContent = data.quality
   tdIndex.textContent = data.aqius
   background.style.backgroundImage = data.background
+  positionPointeur(data.aqius)
+}
+
+let pointeur = document.querySelector('#pointeur')
+
+function positionPointeur(valuePointeur){
+  pointeur.style.transform = `translateX(${((valuePointeur / 500) * 400)*-1}px)`
 }

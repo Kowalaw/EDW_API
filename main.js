@@ -56,7 +56,8 @@ async function dataPolution(){
     }
     catch(error){
 
-    }loader.remove("active")
+    }
+    loader.remove("active")
 }
 
 dataPolution()
